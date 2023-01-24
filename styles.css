@@ -13,6 +13,19 @@ body {
 	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); */
 }
 
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+
 /* .avatar:hover{
     border-radius: 100px;
     border: 1px solid #A5EDED;
